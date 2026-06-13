@@ -1,22 +1,27 @@
-# Concordia token landing · version 11
+# Concordia token landing · version 12
 
 Mobiloptimeret landingsside til QR-koden på den 3D-printede token.
 
-## Ændringer i version 11
+## Ændringer i version 12
 
-- Folder-knappen i toppen er fjernet.
-- Den faste bundbjælke med `Læs folderen` og `Kontakt` er fjernet.
-- Nederste padding er reduceret, fordi der ikke længere skal være plads til bundbjælken.
-- Topbaren viser nu kun Concordia-brandingen.
-- Folderen findes stadig inde på siden, men den fylder ikke længere som primær navigation.
+- Citater ligger nu direkte på siden i stedet for gemt i en popup.
+- Der er lagt små citatkort ind hist og pist mellem sektionerne.
+- Popup-løsningen til citater er fjernet helt.
+- Det gør citaterne langt mere synlige på mobilen.
+
+## Når du vil ændre citaterne
+
+Åbn `index.html` og find teksterne i elementer med klassen:
+
+`pull-quote`
+
+Så kan du nemt skifte dem ud med rigtige citater fra brødrene.
 
 ## Hero-billede
 
-Hero-billedet ligger her:
+Hero-filen er stadig:
 
 `assets/token-real.png`
-
-Du kan senere overskrive filen med en pænere PNG-version uden at ændre koden.
 
 ## Links der typisk skal rettes
 

@@ -14,7 +14,7 @@
 </head>
 <body>
   <!--
-    Version 11 · Mindre folder-fokus: topknap og bundbjælke er fjernet.
+    Version 12 · Citater er flyttet ud på siden i stedet for at ligge gemt i en popup.
 
     Hero-billedet ligger i /assets/token-real.png.
     Hvis du vil skifte til et nyt foto af mønten, så overskriv bare den fil.
@@ -66,6 +66,11 @@
         </p>
       </section>
 
+      <aside class="pull-quote reveal pull-quote-left" aria-label="Citat fra en broder">
+        <p>“Jeg kom for nysgerrigheden. Jeg blev for fællesskabet.”</p>
+        <span>Broder i 35 Concordia</span>
+      </aside>
+
       <section class="info-section reveal" aria-labelledby="hvad-er-det">
         <div class="section-title">
           <p class="eyebrow">Hvad er Concordia?</p>
@@ -95,6 +100,11 @@
           </article>
         </div>
       </section>
+
+      <aside class="pull-quote reveal pull-quote-right" aria-label="Citat fra en broder">
+        <p>“Det giver mig et sted, hvor tempoet er lidt lavere end resten af ugen.”</p>
+        <span>Broder i 35 Concordia</span>
+      </aside>
 
       <section id="folder" class="folder-card reveal" aria-labelledby="folder-title">
         <div>
@@ -142,14 +152,12 @@
           <button type="button" class="dot" aria-label="Vis billede 4"></button>
         </div></section>
 
-      <section class="quote-card reveal" aria-labelledby="citater">
-        <p class="eyebrow">Brødre om fællesskabet</p>
-        <h2 id="citater">Korte citater slår lange forklaringer.</h2>
-        <p>
-          Når siden skal bruges rigtigt, bør citaterne komme fra brødre i logen. Det virker stærkere end pæn reklame-tekst.
-        </p>
-        <button class="btn secondary wide" type="button" data-open-modal="quoteModal">Læs eksempler på citater</button>
-      </section>
+      <aside class="pull-quote reveal pull-quote-left" aria-label="Citat fra en broder">
+        <p>“For mig handler det om ro, relationer og noget at være en del af.”</p>
+        <span>Broder i 35 Concordia</span>
+      </aside>
+
+      
 
       <section id="kontakt" class="contact-card reveal" aria-labelledby="kontakt-title">
         <p class="eyebrow">Næste skridt</p>
@@ -172,27 +180,7 @@
   </div>
 
 
-  <div class="modal" id="quoteModal" aria-hidden="true" role="dialog" aria-labelledby="quoteModalTitle" aria-modal="true">
-    <div class="modal-backdrop" data-close-modal></div>
-    <div class="modal-panel" role="document">
-      <button class="modal-close" type="button" data-close-modal aria-label="Luk">×</button>
-      <p class="eyebrow">Eksempler</p>
-      <h2 id="quoteModalTitle">Citater der kan bruges som retning</h2>
-      <blockquote>
-        <p>“Jeg kom for nysgerrigheden. Jeg blev for fællesskabet.”</p>
-        <cite>Broder i 35 Concordia</cite>
-      </blockquote>
-      <blockquote>
-        <p>“Det giver mig et sted, hvor tempoet er lidt lavere end resten af ugen.”</p>
-        <cite>Broder i 35 Concordia</cite>
-      </blockquote>
-      <blockquote>
-        <p>“For mig handler det om ro, relationer og noget at være en del af.”</p>
-        <cite>Broder i 35 Concordia</cite>
-      </blockquote>
-      <p class="modal-note">Skift dem ud med ægte citater, inden siden bruges bredt.</p>
-    </div>
-  </div>
+  
 
   <script src="script.js"></script>
 </body>

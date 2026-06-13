@@ -57,34 +57,3 @@ dots.forEach((dot, index) => {
 
 showSlide(0);
 startSlideTimer();
-
-const openModalButtons = document.querySelectorAll('[data-open-modal]');
-const closeModalButtons = document.querySelectorAll('[data-close-modal]');
-
-function openModal(id) {
-  const modal = document.getElementById(id);
-  if (!modal) return;
-  modal.classList.add('is-open');
-  modal.setAttribute('aria-hidden', 'false');
-  document.body.classList.add('modal-open');
-}
-
-function closeModal() {
-  const modal = document.querySelector('.modal.is-open');
-  if (!modal) return;
-  modal.classList.remove('is-open');
-  modal.setAttribute('aria-hidden', 'true');
-  document.body.classList.remove('modal-open');
-}
-
-openModalButtons.forEach((button) => {
-  button.addEventListener('click', () => openModal(button.dataset.openModal));
-});
-
-closeModalButtons.forEach((button) => {
-  button.addEventListener('click', closeModal);
-});
-
-document.addEventListener('keydown', (event) => {
-  if (event.key === 'Escape') closeModal();
-});
