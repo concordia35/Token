@@ -142,12 +142,7 @@ p, h1, h2, h3, figure, blockquote { margin-top: 0; }
   pointer-events: none;
 }
 .coin-card::after {
-  content: "";
-  position: absolute;
-  inset: 8% 0 auto;
-  height: 28%;
-  background: radial-gradient(circle at center top, rgba(194,58,118,.12), transparent 62%);
-  pointer-events: none;
+  content: none;
 }
 .coin-label {
   position: static;
