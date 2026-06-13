@@ -1,21 +1,22 @@
-# Concordia token landing · version 10
+# Concordia token landing · version 11
 
 Mobiloptimeret landingsside til QR-koden på den 3D-printede token.
 
-## Ændringer i version 10
+## Ændringer i version 11
 
-- Hero-billedet er nu skiftet til den nye PNG-udgave af mønten.
-- Filen ligger stadig som `assets/token-real.png`.
-- Du kan stadig bare overskrive den fil senere med en pænere PNG-version uden at ændre koden.
-- Teksten under mønten er stadig `Velkommen til`.
+- Folder-knappen i toppen er fjernet.
+- Den faste bundbjælke med `Læs folderen` og `Kontakt` er fjernet.
+- Nederste padding er reduceret, fordi der ikke længere skal være plads til bundbjælken.
+- Topbaren viser nu kun Concordia-brandingen.
+- Folderen findes stadig inde på siden, men den fylder ikke længere som primær navigation.
 
-## Når du vil skifte billedet senere
+## Hero-billede
 
-Erstat bare denne fil:
+Hero-billedet ligger her:
 
 `assets/token-real.png`
 
-med et nyt PNG-billede af mønten og behold samme filnavn.
+Du kan senere overskrive filen med en pænere PNG-version uden at ændre koden.
 
 ## Links der typisk skal rettes
 
