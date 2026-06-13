@@ -1,12 +1,13 @@
-# Concordia token landing · version 16
+# Concordia token landing · version 17
 
 Mobiloptimeret landingsside til QR-koden på den 3D-printede token.
 
-## Ændringer i version 16
+## Ændringer i version 17
 
-- Citaterne på siden er udskiftet med de rigtige citater.
-- Navnene Anton, Kim og Lars står nu direkte under deres citater.
-- Placeringen af citaterne på siden er bevaret.
+- Knapperne "Læs folderen" og "Kontakt os" er fjernet fra hero-sektionen.
+- Landingssiden fungerer nu mere rent som en introduktion.
+- Folder- og kontaktmulighederne findes stadig længere nede på siden.
+- Hero-sektionen er strammet lidt op efter at knapperne er fjernet.
 
 ## Hero-billede
 

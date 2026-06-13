@@ -163,7 +163,7 @@ p, h1, h2, h3, figure, blockquote { margin-top: 0; }
   font-weight: 850;
   letter-spacing: .02em;
 }
-.hero-copy { padding: 26px 2px 0; }
+.hero-copy { padding: 20px 2px 0; }
 .hero-copy::before {
   content: "";
   display: block;
