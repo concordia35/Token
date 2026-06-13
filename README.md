@@ -1,23 +1,26 @@
-# Concordia token landing · version 15
+# Concordia token landing · version 16
 
 Mobiloptimeret landingsside til QR-koden på den 3D-printede token.
 
-## Ændringer i version 15
+## Ændringer i version 16
 
-- Det lyserøde skær over mønten er fjernet.
-- Årsagen var en dekorativ CSS-overlay i `.coin-card::after`.
-- Heroen er derfor mere ren og neutral nu.
+- Citaterne på siden er udskiftet med de rigtige citater.
+- Navnene Anton, Kim og Lars står nu direkte under deres citater.
+- Placeringen af citaterne på siden er bevaret.
 
-## Hvis du vil fjerne det manuelt
+## Hero-billede
 
-Åbn `styles.css` og find denne regel:
+Hero-filen er stadig:
 
-`.coin-card::after`
+`assets/token-real.png`
 
-Slet den helt eller erstat indholdet med:
+## Links der typisk skal rettes
 
-```css
-.coin-card::after {
-  content: none;
-}
-```
+I `index.html` kan du ændre:
+
+- Folder: `https://concordia35.github.io/Folder/`
+- Mail: `info35@concordia.oddfellow.dk`
+- Instagram: `https://www.instagram.com/oddfellow.concordia35/`
+- Officiel side: `https://concordia.oddfellow.dk/`
+
+Der er ikke service worker/cache i denne version.
