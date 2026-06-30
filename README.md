@@ -1,27 +1,30 @@
-# Concordia token landing · version 17
+# Concordia token landing · version 18
 
-Mobiloptimeret landingsside til QR-koden på den 3D-printede token.
+Mobil landingsside til QR-koden på Concordias token.
 
-## Ændringer i version 17
+## Version 18
 
-- Knapperne "Læs folderen" og "Kontakt os" er fjernet fra hero-sektionen.
-- Landingssiden fungerer nu mere rent som en introduktion.
-- Folder- og kontaktmulighederne findes stadig længere nede på siden.
-- Hero-sektionen er strammet lidt op efter at knapperne er fjernet.
+- Siden er låst til en maksimal bredde på 430 px, også på computer og tablet.
+- HTML, CSS og JavaScript er ryddet op og gjort lettere at vedligeholde.
+- Ubrugte billedfiler og gamle CSS-regler er fjernet.
+- Billeder har faste dimensioner, så siden hopper mindre under indlæsning.
+- Slideshowet stopper, når fanen ikke er aktiv, og respekterer reduceret bevægelse.
 
 ## Hero-billede
 
-Hero-filen er stadig:
+Hero-billedet ligger her:
 
-`assets/token-real.png`
+`assets/token-hero.png`
 
-## Links der typisk skal rettes
+Det kan udskiftes ved at overskrive filen med et nyt billede med samme navn.
 
-I `index.html` kan du ændre:
+## Links
+
+Links og mailadresse ændres direkte i `index.html`:
 
 - Folder: `https://concordia35.github.io/Folder/`
 - Mail: `info35@concordia.oddfellow.dk`
 - Instagram: `https://www.instagram.com/oddfellow.concordia35/`
 - Officiel side: `https://concordia.oddfellow.dk/`
 
-Der er ikke service worker/cache i denne version.
+Siden bruger ikke service worker eller cache.
