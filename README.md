@@ -14,7 +14,7 @@ Mobil landingsside til QR-koden på Concordias token.
 
 Hero-billedet ligger her:
 
-`assets/token-hero.png`
+`assets/token-coin.webp`
 
 Det kan udskiftes ved at overskrive filen med et nyt billede med samme navn.
 
