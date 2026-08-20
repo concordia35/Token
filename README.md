@@ -25,3 +25,11 @@ Links kan ændres direkte i `index.html`:
 - Officiel side: `https://concordia.oddfellow.dk/`
 
 Der er ingen service worker eller cache i denne version.
+
+
+## NFC-side
+
+NFC-tagget skal pege på NFC-siden `ekstra/`.
+Hvis GitHub Pages-adressen er `https://concordia35.github.io/INVITATION/`, skal NFC-tagget derfor programmeres med `https://concordia35.github.io/INVITATION/ekstra/`.
+
+Siden er sat til `noindex`, så søgemaskiner ikke bør indeksere den, og der er ikke noget direkte link til den fra forsiden.
